@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 8px;
+	margin: 0;
+	/* Para WebKit (Safari, Google Chrome etc) */
+	background: -webkit-gradient(linear, left top, left bottom, from(#F1F1F1), to(#D5D5D5)) repeat-X;
+	/* Para Mozilla/Gecko (Firefox etc) */
+background: -moz-linear-gradient(top, #666, #fff) repeat-X;
+}
+
+#cabecalho {
+	background-color: #FFF;
+	height: 300px;
+	width: 100%;
+}
+
+#corpo {
+	float: left;
+	width: 900px;
+	height: auto;
+	margin-left: 315px;
+	
+}
+
+#barralateral {
+	background-color: #eee;
+	float: right;
+	width: 20%;
+	height: 700px;
+}
+
+#rodape {
+	background-color: #eee;
+	margin-top: 120%;
+	height: 150px;
+	text-align: left;
+}
+
+#fundo {
+	background-color: #FFF;
+	max-width: 1200px;
+	margin: -8px auto 0px auto;
+}
+
+#logo {
+	background-color: #FFF;
+	float: left;
+	width: 35%;
+	height: 260px;
+}
+
+#titulo {
+	font-size: 20px;
+}
+
+#menu {
+	margin-left: 100px;
+}
